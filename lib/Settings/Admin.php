@@ -46,6 +46,7 @@ class Admin implements ISettings {
 		$this->l10n = $l10n;
 		$this->manager = $manager;
 		$this->userSettings = $userSettings;
+  }
 
   /**
 	 * @return string the section ID, e.g. 'sharing'
